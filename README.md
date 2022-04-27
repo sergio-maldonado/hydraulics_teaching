@@ -18,19 +18,24 @@ A uniform, background velocity field can be prescribed to illustrate the combine
 </p>
 
 ## dif_lagrangian_turbulence.m
-This is similar to the previous code, but it allows to model "pseudo-turbulence" - meaning that turbulence is simply modelled as random fluctuations added to a mean velocity field (no considerations for mass or momentum conservation whatsoever). The purpose of this is illustrate how this randomness can have a very similar effect to diffusion. 
+This is similar to the previous code, but it allows to model "pseudo-turbulence" - meaning that turbulence is here simply modelled as random fluctuations added to a mean velocity field (without consideration for mass or momentum conservation). The purpose of this is illustrate how this randomness can have a similar effect to diffusion. 
 
-For example, here is the case of 100 particles (without any random walks) released in a perfectly uniform flow: 
+For example, here is the case of 100 particles (without any "diffusion"; i.e. random walks) released in a perfectly uniform flow: 
 
 <p align="center">
     <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/animation_diff_noturb.gif" width="600" height="400" alt="advection diffusion"/>
 </p>
 
-As expected, nothing interesting happens. However, if we add a random fluctuation to the velocity field, we ovserve dispersive behaviour: 
+As expected, nothing interesting happens. However, if we add random fluctuations to the velocity field, we observe dispersive behaviour: 
 
 <p align="center">
     <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/animation_diff_turb.gif" width="600" height="400" alt="advection diffusion"/>
 </p>
 
+Here we see an illustration of enhanced mixing due to "turbulence":
+
+<p align="center">
+    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/final_dif_turb.gif" width="600" height="400" alt="advection diffusion"/>
+</p>
 
 (to be continued...)
