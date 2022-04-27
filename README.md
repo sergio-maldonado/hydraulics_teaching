@@ -35,7 +35,7 @@ As expected, nothing interesting happens. However, if we add random fluctuations
 Here we see an illustration of enhanced mixing due to "turbulence":
 
 <p align="center">
-    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/final_dif_turb.gif" width="600" height="400" alt="advection diffusion"/>
+    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/final_dif_turbu.gif" width="600" height="400" alt="advection diffusion"/>
 </p>
 
 (to be continued...)
