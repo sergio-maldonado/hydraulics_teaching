@@ -42,7 +42,7 @@ Here we see an illustration of enhanced mixing due to "turbulence":
 A user-friendly Matlab app that allows quick exploration of the effect that the Rouse number and the dispersivity coefficient have in the predicted concentration profile of suspended sediment.
 
 <p align="center">
-    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/rouse_app_ss.png" width="500" height="600" alt="suspended sediment profile"/>
+    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/rouse_app_sshot.png" width="500" height="500" alt="suspended sediment profile"/>
 </p>
 
 ## Exner_rigidlid.mlx
