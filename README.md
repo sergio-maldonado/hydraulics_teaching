@@ -1,6 +1,6 @@
 # hydraulics_teaching
 
-This repository contains various codes illustrating different principles in environmental hydraulics. The codes are intended for illustrative/pedagogical purposes. A description of each code is provided below.
+This repository contains various codes illustrating different principles in environmental hydraulics. The codes are intended for illustrative/pedagogical purposes at undergraduate level. A description of each code is provided below.
 
 ## dif_lagrangian.m
 This Matlab code illustrates the process of diffusion arising from the random motion of individual particles; for example:  
@@ -38,4 +38,17 @@ Here we see an illustration of enhanced mixing due to "turbulence":
     <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/final_dif_turbu.gif" width="600" height="400" alt="advection diffusion"/>
 </p>
 
-(to be continued...)
+## rouse.mlapp
+A user-friendly Matlab app that allows quick exploration of the effect that the Rouse number and the dispersivity coefficient have in the predicted concentration profile of suspended sediment.
+
+<p align="center">
+    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/rouse_app_ss.png" width="500" height="600" alt="suspended sediment profile"/>
+</p>
+
+## Exner_rigidlid.mlx
+This Matlab Live Code predicts (analytically) the morphodynamic evolution of a bedform subject to steady flow, assuming a constant free surface level or "rigid lid" (which is a good approximation at low Froude numbers). The purpose is to show the migration and deformation of an initially symmetrical bedform:
+
+<p align="center">
+    <img src="https://github.com/sergio-maldonado/hydraulics_teaching/blob/main/images/bedform_evolution.png" width="800" height="250" alt="evolution bed form"/>
+</p>
+
